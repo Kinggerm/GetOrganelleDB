@@ -1,6 +1,6 @@
 # GetOrganelle Database
 
-By default, `get_organelle_config.py` will automatically access this repository to download and build the SeedDatabase and LabelDatabase of the latest version.
+By default, `get_organelle_config.py` will automatically access this repository to download and build the SeedDatabase and LabelDatabase of the latest version. e.g.
 
     get_organelle_config.py -a fungus_mt
 
