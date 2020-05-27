@@ -8,11 +8,10 @@ Due to the unstable accessibility to Github in some regions, the `get_organelle_
 
 If `get_organelle_config.py` still fails after many trials, supposing you want to install version `0.0.0` of `embplant_pt` and `embplant_mt`, download this repository and run `get_organelle_config.py` with the flag `--use-local`:
     
-    version=0.0.0
     git clone https://github.com/Kinggerm/GetOrganelleDB
-    get_organelle_config.py -a embplant_pt,embplant_mt --use-local ./GetOrganelleDB/$version
+    get_organelle_config.py -a embplant_pt,embplant_mt --use-local ./GetOrganelleDB/0.0.0
     
     # or download part of the repository by
-    # svn co https://github.com/Kinggerm/GetOrganelleDB/trunk/$version
-    # get_organelle_config.py -a embplant_pt,embplant_mt --use-local ./$version
+    # svn co https://github.com/Kinggerm/GetOrganelleDB/trunk/0.0.0
+    # get_organelle_config.py -a embplant_pt,embplant_mt --use-local ./0.0.0
     
