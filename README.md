@@ -6,9 +6,9 @@ By default, `get_organelle_config.py` will automatically access this repository 
 
     get_organelle_config.py -a fungus_mt
 
-### Installation from local
-
 Due to the unstable accessibility to Github in some regions, the `get_organelle_config.py` sometimes fails with connection error (e.g. timeout). In that case, try a couple of more times will simply work.
+
+### Installation from local
 
 If `get_organelle_config.py` still fails after many trials, supposing you want to install version `0.0.0` of `embplant_pt` and `embplant_mt`, download this repository and run `get_organelle_config.py` with the flag `--use-local`. Make your own database is feasible if you use the same directory structure, but not recommended. 
 
