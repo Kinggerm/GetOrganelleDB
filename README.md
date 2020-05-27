@@ -14,7 +14,7 @@ If `get_organelle_config.py` still fails after many trials, supposing you want t
 
 You can choose anyone of the following code blocks to install:
     
-  1. Use `curl` to download the released database (ca. 80 MB):
+  1. Use `curl` to download the released compressed file (ca. 20 MB -> 80 MB):
     
     curl -L https://github.com/Kinggerm/GetOrganelleDep/releases/download/v0.0.0/v0.0.0.tar.gz | tar zx
     get_organelle_config.py -a embplant_pt,embplant_mt --use-local ./0.0.0
