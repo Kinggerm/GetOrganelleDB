@@ -1,18 +1,20 @@
 # GetOrganelle Database
 
-### Installation from Github
+All versions of default databases of [GetOrganelle](https://github.com/Kinggerm/GetOrganelle).
+
+### Initialization from Github
 
 By default, `get_organelle_config.py` will automatically access this repository to download and build the SeedDatabase and LabelDatabase of the latest version. e.g.
 
     get_organelle_config.py -a fungus_mt
 
-Due to the unstable accessibility to Github in some regions, the `get_organelle_config.py` sometimes fails with connection error (e.g. timeout). In that case, try a couple of more times will simply work.
+Due to the unstable accessibility to Github in some regions, the `get_organelle_config.py` sometimes fails with connection error (e.g. timeout). In most cases, try the above command for more times will simply work.
 
-### Installation from local
+### Initialization from local files
 
-If `get_organelle_config.py` still fails after many trials, supposing you want to install version `0.0.0` of `embplant_pt` and `embplant_mt`, download this repository and run `get_organelle_config.py` with the flag `--use-local`. Make your own database is feasible if you use the same directory structure, but not recommended. 
+If `Initialization from Github` still fails after many trials, download this repository and run `get_organelle_config.py` with the flag `--use-local`. Make your own database is feasible if you use the same directory structure, but not recommended. 
 
-You can choose anyone of the following code blocks to install:
+Supposing you want to install version `0.0.0` of `embplant_pt` and `embplant_mt`, you can choose any one of the following code blocks to install:
     
   1. Use `curl` to download the released compressed file (ca. 20 MB -> 80 MB):
     
@@ -28,4 +30,3 @@ You can choose anyone of the following code blocks to install:
   
     git clone https://github.com/Kinggerm/GetOrganelleDB
     get_organelle_config.py -a embplant_pt,embplant_mt --use-local ./GetOrganelleDB/0.0.0
-    
