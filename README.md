@@ -10,22 +10,22 @@ Due to the unstable accessibility to Github in some regions, the `get_organelle_
 
 ### Installation from local
 
-If `get_organelle_config.py` still fails after many trials, supposing you want to install version `0.0.0` of `embplant_pt` and `embplant_mt`, download this repository and run `get_organelle_config.py` with the flag `--use-local`. Make your own database is feasible if you use the same directory structure, but not recommended. 
+If `get_organelle_config.py` still fails after many trials, supposing you want to install version `0.0.1` of `embplant_pt` and `embplant_mt`, download this repository and run `get_organelle_config.py` with the flag `--use-local`. Make your own database is feasible if you use the same directory structure, but not recommended. 
 
 You can choose anyone of the following code blocks to install:
     
   1. Use `curl` to download the released compressed file (ca. 20 MB -> 80 MB):
     
-    curl -L https://github.com/Kinggerm/GetOrganelleDep/releases/download/v0.0.0/v0.0.0.tar.gz | tar zx
-    get_organelle_config.py -a embplant_pt,embplant_mt --use-local ./0.0.0
+    curl -L https://github.com/Kinggerm/GetOrganelleDep/releases/download/v0.0.1/v0.0.1.tar.gz | tar zx
+    get_organelle_config.py -a embplant_pt,embplant_mt --use-local ./0.0.1
     
   2. Use svn to download part of the repository (ca. 80 MB):
   
-    svn co https://github.com/Kinggerm/GetOrganelleDB/trunk/0.0.0
-    get_organelle_config.py -a embplant_pt,embplant_mt --use-local ./0.0.0
+    svn co https://github.com/Kinggerm/GetOrganelleDB/trunk/0.0.1
+    get_organelle_config.py -a embplant_pt,embplant_mt --use-local ./0.0.1
     
   3. Use git clone to clone the entire repository (ca. 100 MB):
   
     git clone https://github.com/Kinggerm/GetOrganelleDB
-    get_organelle_config.py -a embplant_pt,embplant_mt --use-local ./GetOrganelleDB/0.0.0
+    get_organelle_config.py -a embplant_pt,embplant_mt --use-local ./GetOrganelleDB/0.0.1
     
