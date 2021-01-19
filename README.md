@@ -29,3 +29,9 @@ You can choose anyone of the following code blocks to install:
     git clone https://github.com/Kinggerm/GetOrganelleDB
     get_organelle_config.py -a embplant_pt,embplant_mt --use-local ./GetOrganelleDB/0.0.1
     
+
+### Updates
+
+* *0.0.1* fungus_nr added
+
+* *0.0.0* Initial version
