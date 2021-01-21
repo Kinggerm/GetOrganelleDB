@@ -30,7 +30,7 @@ Due to the unstable accessibility to Github in some regions, the `get_organelle_
 
 If `Initialization from Github` still fails after many trials, download this repository and run `get_organelle_config.py` with the flag `--use-local`. Making your own database is feasible if you use the same directory structure, but not recommended. 
 
-Supposing you want to install version `0.0.0` of `embplant_pt` and `embplant_mt`, you can choose any one of the following code blocks to install:
+Supposing you want to install version `0.0.1` of `embplant_pt` and `embplant_mt`, you can choose any one of the following code blocks to install:
     
   1. Use `curl` to download the released compressed file (ca. 20 MB -> 80 MB):
     
