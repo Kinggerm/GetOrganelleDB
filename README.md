@@ -58,11 +58,11 @@ Supposing you want to install version `0.0.1` of `embplant_pt` and `embplant_mt`
 
 ## How to contribute
 
-#### Welcome to join the community!
+### Welcome to join the community!
 
 For generating previous databases, I downloaded all available **complete** plastomes/mitogenomes or **complete** nr region from the Genbank, semi-manually cleaned them, masked the simple repeats. However, using all sequences as the default database takes too much space for most users. So I made a customized script, `scripts/generate_bowtie2_seed.py`, to balance the taxa coverage and the size. The basic idea is randomly picking a set of sequences that can represent/recruit all the candidate sequences given a certain gapping threshold (default: 2000 bp). Then I used the sequence as the seed database and extracted the non-tRNA genes as the label database. Of course, each step should be accompanied by error-proof checking.
 
-#### Guidelines
+### Guidelines
 
 1. The sequence header of the seed database should include the Genbank accession numbers.
 2. The sequence header of the label database should be in the form of `>name type - sequence_info_without_space`, e.g. `>rbcL gene - Amborella_AJ506156_2`. The sequence info should at least include the Genbank accession number.
@@ -71,7 +71,7 @@ For generating previous databases, I downloaded all available **complete** plast
 5. For the label database, remember to unify the gene names (e.g., upper/lower cases, abbreviations) and exclude the short genes such as tRNAs.
 6. Test the database with a range of WGS from different taxa.
 
-#### Uploading
+### Uploading
 Follow the following steps to add the compiled database to the community:
 1. fork the [GetOrganelleDB repo](https://github.com/Kinggerm/GetOrganelleDB).
 2. duplicate the subdirectory of the latest version and rename it to a newer one.
