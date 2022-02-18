@@ -48,7 +48,7 @@ Supposing you want to install version `0.0.1` of `embplant_pt` and `embplant_mt`
     get_organelle_config.py -a embplant_pt,embplant_mt --use-local ./GetOrganelleDB/0.0.1
     
 
-### Updates
+## Updates
 
 * **0.0.1** fungus_nr added
 
@@ -56,7 +56,7 @@ Supposing you want to install version `0.0.1` of `embplant_pt` and `embplant_mt`
 
 
 
-### How to contribute
+## How to contribute
 
 #### Welcome to join the community!
 
