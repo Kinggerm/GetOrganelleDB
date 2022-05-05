@@ -50,6 +50,8 @@ Supposing you want to install version `0.0.1` of `embplant_pt` and `embplant_mt`
 
 ## Updates
 
+* **0.0.1.minima** A minimal subset of 0.0.1 for test only.
+
 * **0.0.1** fungus_nr added
 
 * **0.0.0** Initial version
@@ -58,7 +60,7 @@ Supposing you want to install version `0.0.1` of `embplant_pt` and `embplant_mt`
 
 ## How to contribute
 
-### Welcome to join the community!
+### Welcome to the community!
 
 For generating previous databases, I downloaded all available **complete** plastomes/mitogenomes or **complete** nr region from the Genbank, semi-manually cleaned them, masked the simple repeats. However, using all sequences as the default database takes too much space for most users. So I made a customized script, `scripts/generate_bowtie2_seed.py`, to balance the taxa coverage and the size. The basic idea is randomly picking a set of sequences that can represent/recruit all the candidate sequences given a certain gapping threshold (default: 2000 bp). Then I used the sequence as the seed database and extracted the non-tRNA genes as the label database. Of course, each step should be accompanied by error-proof checking.
 
