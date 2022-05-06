@@ -50,7 +50,7 @@ Supposing you want to install version `0.0.1` of `embplant_pt` and `embplant_mt`
 
 ## Updates
 
-* **0.0.1.minima** A minimal subset of 0.0.1 for test only.
+* **0.0.1.minima** A minimal subset of 0.0.1 for test only (GetOrganelle 1.7.6+ required).
 
 * **0.0.1** fungus_nr added
 
