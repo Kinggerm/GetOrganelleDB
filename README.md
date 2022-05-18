@@ -24,7 +24,7 @@ By default, `get_organelle_config.py` will automatically access this repository 
 
     get_organelle_config.py -a fungus_mt
 
-Due to the unstable accessibility to Github in some regions, the `get_organelle_config.py` sometimes fails with connection error (e.g., timeout). However, trying the above command more times will simply work in most cases.
+Due to the unstable accessibility to Github in some regions, the `get_organelle_config.py` sometimes fails with connection error (e.g., timeout, sha256_unmatch). However, trying the above command more times will simply work in most cases.
 
 ### Option 2 Initialization from local files
 
