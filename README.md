@@ -34,7 +34,7 @@ Supposing you want to install version `0.0.1` of `embplant_pt` and `embplant_mt`
     
   1. Use `curl` to download the released compressed file (ca. 20 MB -> 80 MB):
     
-    curl -L https://github.com/Kinggerm/GetOrganelleDep/releases/download/0.0.1/v0.0.1.tar.gz | tar zx
+    curl -L https://github.com/Kinggerm/GetOrganelleDB/releases/download/0.0.1/v0.0.1.tar.gz | tar zx
     get_organelle_config.py -a embplant_pt,embplant_mt --use-local ./0.0.1
     
   2. Use svn to download part of the repository (ca. 80 MB):
